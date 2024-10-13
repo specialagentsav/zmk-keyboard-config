@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: specialagentsav/zmk-keyboard-config.github/workflows/build-user-config.yml
+    uses: specialagentsav/zmk/.github/workflows/build-user-config.yml
